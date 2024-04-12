@@ -1,0 +1,21 @@
+
+/*Reset CSS - Tira margem da página*/
+/*Eric Meyer / Normalize CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CABEÇALHO*/
+#cabecalho{
+    /*background-color: blue;*/
+    color: white;
+    background-image: url("../img/banner-640x1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
