@@ -1,0 +1,22 @@
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    CABEÇALHO
+*/
+    #cabecalho{
+        color: #fff;
+        background-image: url("../img/banner-1280×640.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+/*
+    CABEÇALHO
+*/
