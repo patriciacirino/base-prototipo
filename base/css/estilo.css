@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E2836;
+    color: white;
+}
+
+/* CABEÇALHO */
+#cabecalho {
+    background-image: url("../img/banner-1280x640.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* CABEÇALHO */
