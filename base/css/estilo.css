@@ -1,0 +1,21 @@
+/*
+    CABEÇALHO
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    color: white;
+    background-image: url("../img/banner-6617550_1280.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+CABEÇALHO
+*/
