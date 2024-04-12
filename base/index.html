@@ -1,35 +1,46 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INICIO</title>
-</head>
-<body>
-    
-  <header id-"Cabecalho"> 
-    <h1> PROTÓTIPO </h1>
-   <nav>
-    <ul>
-        <li class="link"><a href="#">Item-1</a></li>
-        <li class="link"><a href="#">Item-2</a></li>
-        <li class="link"><a href="#">Item-3</a></li>
-    </ul>
-   </nav>      
-  </header>
-  <main>
-    <section>
-        <div>
-            <h2> HELP</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Optio distinctio itaque enim rerum ab sequi dolorum accusantium 
-                 voluptatum ducimus esse blanditiis dicta laboriosam, minus totam, 
-                 harum est necessitatibus iusto quas.
+    <link rel="stylesheet" href="./css/estilo.css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1>PROTÓTIPO</h1>
 
-            </p>
+      <nav>
+        <ul>
+          <li class="link"><a href="#">Item-1</a></li>
+          <li class="link"><a href="#">Item-2</a></li>
+          <li class="link"><a href="#">Item-3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h2>HELP</h2>
+          <i>-</i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            aperiam doloribus nihil qui suscipit distinctio magnam aut ipsa
+            provident facere. Perferendis minima quae officiis praesentium dolor
+            soluta repudiandae veritatis totam.
+          </p>
         </div>
-    </section>
-    <section>
+        <div>
+          <h2>ABOUT</h2>
+          <i>-</i>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            aperiam doloribus nihil qui suscipit distinctio magnam aut ipsa
+            provident facere. Perferendis minima quae officiis praesentium dolor
+            soluta repudiandae veritatis totam.
+          </p>
+        </div>
+      </section>
+      <section>
         <div>
           <h2>CADASTRO</h2>
           <form>
@@ -39,12 +50,23 @@
                 <input
                   type="text"
                   name="txtNmCompleto"
+                  id="idNmCompleto"
+                  placeholder="Nome Completo"
+                />
+                <label for="idNmCompleto">*Campo obrigatório</label>
+              </div>
+              <div>
+                <input
+                  type="email"
+                  name="txtEmail"
                   id="idEmail"
                   placeholder="Email"
                 />
                 <label for="idEmail">*Campo obrigatório</label>
               </div>
-              <button type="button">Enviar</button>
+              <div>
+                <button type="button">Enviar</button>
+              </div>
             </fieldset>
           </form>
         </div>
