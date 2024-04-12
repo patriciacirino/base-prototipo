@@ -22,8 +22,25 @@ body{
     background-size: cover;
     font-size: 2rem;
     font-family: "Robot", sans-serif;
+    clear: both;
 
-    h1 {
+    & h1 {
         font-weight: bold;
+        float: left;
+        display: inline;
+    }
+
+    nav {
+        float: right;
+        display: inline;
+
+         ul{
+            list-style: none;
+            width: 100%;
+
+            & .link{
+                display: inline;
+            }
+        }
     }
 }
