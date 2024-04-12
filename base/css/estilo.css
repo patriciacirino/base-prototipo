@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: #1E2836;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
 }
 
+/* ANINHAMENTO */
 /* CABEÇALHO */
 #cabecalho {
     background-image: url("../img/banner-1280x640.png");
@@ -16,5 +23,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    clear: both;
+
+    & h1{
+        float: left;
+        display: inline;
+    }
+
+    & nav{
+        float: right;
+        display: inline;
+        
+        & ul {
+            list-style: none;
+            width: 100%;
+
+            & .link {
+                display: inline;
+            }
+        }
+    }
+
 }
 /* CABEÇALHO */
+/* ANINHAMENTO */
+
+/* CONTEÚDO */
+#content {
+    clear: both;
+}
+/* CONTEÚDO */
