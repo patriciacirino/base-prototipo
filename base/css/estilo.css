@@ -22,38 +22,37 @@ body {
     CABEÇALHO
 */
     #cabecalho {
-        color: #fff;
-        background-image: url("../img/banner1280.png");
-        background-position: center;
-        background-repeat: no-repeat;
+        background : center no-repeat url("../img/banner1280.png");
         background-size: cover;
-        font-size: 2rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
+        width: 100%;
+        height: 180px;
+
 
    
-         & h1{
+          h1{
             float: left;
-            display: inline;        
+            color:#fff
 
         }
 
-    & nav{
+       nav{
             float: right;
-            display: incline; 
-
-             ul{
-                list-style: none;
-                width: 100%;
-
-                .link{
-                    display: inline;
-                }
-            }
-        }
-
+            position: absolute
+            top: 50%;
+       }
         
+       .link{
+        display: inline;
+        margin: 0 5%;
     }
+
+    .link a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+        
+    
 
 
     /* CABEÇALHO */
