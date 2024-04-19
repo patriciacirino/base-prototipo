@@ -16,3 +16,13 @@
     background-color: #1E2836;
     color: white;
 }
+#inputname {
+    display: flex;
+    color: grey;
+    padding: 0.3rem;
+    border: 3px solid #ccc0c8;
+}
+::placeholder {
+    color: #ccc0c8;
+    font-size: 1rem;
+}
