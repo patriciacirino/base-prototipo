@@ -17,6 +17,10 @@
     color: white;
 }
 
+.input-wrapper {
+    padding: 0.5rem;
+}
+
 .input {
     display: flex;
     color: grey;
@@ -27,4 +31,9 @@
 ::placeholder {
     color: #ccc0c8;
     font-size: 1rem;
+}
+
+.labelinput{
+    color: red;
+    font-size: 0.8rem;
 }
