@@ -47,6 +47,7 @@ body {
   padding: 0rem 0.3rem;
   border: 0.3rem solid #cecaca;
   max-height: 4rem;
+  color: black;
 }
 
 ::placeholder {
