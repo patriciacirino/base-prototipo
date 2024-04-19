@@ -1,20 +1,45 @@
-/*reset css*/
+/*
+    CSS-RESET
+*/
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-/*
-    CABEÇALHO
-*/
-    #cabecalho{
+
+#cabecalho{
+    background: center no-repeat url("../img/img-01-banner-1280×640.png");
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    position: relative;
+
+    h1{
         color: #fff;
-        background-image: url("../img/banner-1280x640.png");
-        background-position: center;
-        background-repeat: no-repeat; /*Evita que o conteúdo se repita*/
-        background-size: cover;
+        float: left;
+        position: absolute;
+        top: 40%;
+        left: 10%;
     }
 
-/*
-    CABEÇALHO
-*/
+    nav{
+        float: right;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+
+    .link{
+        display: inline;
+        margin: 0 5%;
+    }
+
+    .link a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* #cabecalho h1{
+    color: #fff;
+} */
