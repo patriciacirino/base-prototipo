@@ -16,7 +16,7 @@
 }
 
 #cabecalho{
-    background: center no-repeat url("../img/img-01-banner-1280×640.png");
+    background: center no-repeat url("../img/img-01-banner-1280×640.png"); 
     background-size: cover;
     width: 100%;
     height: 180px;
@@ -51,7 +51,7 @@
     color: #fff;
 } 
 
-/* Sessão Sobre mim */
+/* Sessão Sobre mim (about) */
 
 #sessao-about {
     background-color: var(--cor-fundo-conteudo);
