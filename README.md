@@ -9,7 +9,7 @@
 - [x] Título principal "HELP"
 - [x] Parágrafo explicando o que é a plataforma Help, seus objetivos e missão.
  - [x] Ícone  Help (logo)
- - [ ] Um botão com o texto Mais...  para direcionar  ao restante do conteúdo na página help.
+ - [x] Um botão com o texto Mais...  para direcionar  ao restante do conteúdo na página help.
  - [x] Linha dividindo o contéudo Help  do conteúdo About
  - [ ] Conteúdo sobre (About), com ícone e descrição.
  * História da Empresa

@@ -8,11 +8,15 @@
   padding: 15px;
   padding-top: 5px;
 }
+#container img{
+position: absolute;
+left: 660px;
+}
 h1 {
   color: #ffffff;
+  display: inline;
 }
 p {
   color: #ffffff;
   text-align: justify;
-  
 }
