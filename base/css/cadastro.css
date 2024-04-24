@@ -23,6 +23,11 @@ body {
   gap: 2rem;
 }
 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 .inputs-wrapper,
 .signup-form {
   flex: 3;
